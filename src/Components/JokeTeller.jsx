@@ -20,7 +20,7 @@ const JokeTeller = () => {
     <div>
       <h2 className={style.heading}>Joke Teller</h2>
       <button onClick={fetchJoke} className="btn btn-primary">
-        Tell Me a Joke
+        Joke
       </button>
       <div className="container">{joke && <p>{joke}</p>}</div>
     </div>
