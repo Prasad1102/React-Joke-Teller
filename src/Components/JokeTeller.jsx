@@ -25,7 +25,11 @@ const JokeTeller = () => {
       <button onClick={fetchJoke} className="btn btn-primary">
         Joke
       </button>
+<<<<<<< HEAD
       <div className="container">{joke && <p>{joke}</p>}</div>
+=======
+      <div className={style.container}>{joke && <p>{joke}</p>}</div>
+>>>>>>> ddc52b9c48fb39599262ff5a218a6c1d010ce2c3
     </div>
   );
 };
