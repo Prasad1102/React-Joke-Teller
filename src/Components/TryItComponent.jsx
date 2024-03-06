@@ -1,4 +1,5 @@
 const TryItComponent = () => {
+  console.log("Test In Try")
   return (
     <>
       <p>This is a component from My-React-project</p>
