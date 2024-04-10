@@ -1,5 +1,4 @@
 const TryItComponent = () => {
-  console.log("helow testing ");
   return (
     <>
       <h3>Hello Sir..!</h3>
