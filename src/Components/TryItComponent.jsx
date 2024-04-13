@@ -2,7 +2,6 @@ const TryItComponent = () => {
   return (
     <>
       <h3>Hello Sir..!</h3>
-      <h3>Good Morning</h3>
     </>
   );
 };
