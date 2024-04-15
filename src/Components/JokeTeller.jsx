@@ -10,7 +10,6 @@ const JokeTeller = () => {
     tellJoke(data.joke);
   };
 
-  console.log("hello");
 
   const tellJoke = (joke) => {
     const speech = new SpeechSynthesisUtterance();
